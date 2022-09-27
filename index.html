@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilar Social & Projeto Sopa</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    
+   
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+
+  <center>
+    <h2>Cadastro Familiar</h2>
+    </center>
+
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Responsável pela família</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <form>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Alguém que recebe aposentadoria</span>
+        <input TYPE="checkbox" NAME="OPCAO" VALUE="op1"> Sim
+        <input TYPE="checkbox" NAME="OPCAO" VALUE="op2"> Não
+        <input type="text" placeholder="R$">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Pesssoa que recebeu</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">RG</span>
+        <input type="text" class="form-control" placeholder="Ex.: 000.000.000-0" data-mask="000.000.000.0" maxlength="10" autocomplete="off">
+        <span class="input-group-text" id="inputGroup-sizing-default">CPF</span>
+        <input type="text" class="form-control" placeholder="Ex.: 000.000.000-00" data-mask="000.000.000.00" maxlength="11" autocomplete="off">
+        <span class="input-group-text" id="inputGroup-sizing-default">DN</span>
+        <input type="text" class="form-control" placeholder="Ex.: dd/mm/aaaa" data-mask="00/00/0000" maxlength="8" autocomplete="off">
+        <span class="input-group-text" id="inputGroup-sizing-default">Telefone</span>
+        <input type="text" class="form-control phone-ddd-mask" placeholder="Ex.: (00) 0000-0000" maxlength="10">
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Endereço</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <input type="text" placeholder="N°">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Bairro</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Condição de moradia</span>
+        <input TYPE="checkbox" NAME="OPCAO" VALUE="op1"> Casa própria
+        <input TYPE="checkbox" NAME="OPCAO" VALUE="op2"> Alugada
+        <input type="text" placeholder="R$">
+        <input TYPE="checkbox" NAME="OPCAO" VALUE="op3"> Outros
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Profissão do responsável da família</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Alguém que recebe o Auxílio Brasil</span>
+        <input TYPE="checkbox" NAME="OPCAO" VALUE="op1"> Sim
+        <input TYPE="checkbox" NAME="OPCAO" VALUE="op2"> Não
+        <input type="text" placeholder="R$">
+      </div>
+    </form>
+    <center>
+    <h2>Composição Familiar</h2>
+    </center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Algum morador possui enfermidade?</span>
+        <input TYPE="checkbox" NAME="OPCAO" VALUE="op1"> Sim
+        <input TYPE="checkbox" NAME="OPCAO" VALUE="op2"> Não
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Qual ou quais?</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Entrevistador:</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Recebido por:</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+      </div>
+
+
+
+</body>
+</html>
